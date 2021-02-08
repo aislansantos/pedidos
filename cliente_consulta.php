@@ -17,9 +17,6 @@ $cliente = new Cliente($pdo);
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
 
-
-    <link rel="stylesheet" href="//cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
-    <script src="//cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
 </head>
 
 <body>
@@ -47,23 +44,7 @@ $cliente = new Cliente($pdo);
                 </tbody>
             <?php endforeach; ?>
         </table>
-        <script>
-            $(document).ready(function() {
-                $('#clientesTable').DataTable({
-                    scrollY: '60vh',
-                    scrollCollapse: true,
-                    paging: false,
-                    "language": {
-                        "lengthMenu": "Mostrando _MENU_ registros por pagina",
-                        "zeroRecords": "Nada encontrado",
-                        "info": "",
-                        "infoEmpty": "Nenhum registro disponivel",
-                        "infoFiltered": "(Filtrado de _MAX_ total registros)",
-                        "search": "Pesquisar:",
-                    }
-                });
-            });
-        </script>
+
     </div>
 </body>
 
