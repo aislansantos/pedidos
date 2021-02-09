@@ -13,9 +13,20 @@
 </head>
 
 <body>
-    <form action="" method="post">
-        <input type="hidden" name="">
-    </form>
+    <?php require('../pedidos/assets/menu/menu.php'); ?>
+    <div class="container">
+        <br>
+        <h3>Cliente</h3>
+        <hr>
+        <form action="" method="post">
+            <input type="hidden" name="">
+            <label>
+                Nome:
+                <input type="text" name="nome" id="">
+            </label>
+            <input type="submit" value="Salvar">
+        </form>
+    </div>
 </body>
 
 </html>

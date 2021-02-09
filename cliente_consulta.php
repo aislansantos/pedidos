@@ -36,7 +36,7 @@ $cliente = new Cliente($pdo);
                             <?php echo $item['nome']; ?>
                         </td>
                         <td>
-                            <a href="<?php echo 'cliente_Salvar.php?id=' . $item['id']; ?>" class="btn btn-light">CONSULTAR</a>
+                            <a href="<?php echo 'cliente_salva.php?id=' . $item['id']; ?>" class="btn btn-light">CONSULTAR</a>
                             <a href="<?php echo 'cliente_Deletar.php?id=' . $item['id'] . '&nome=' . $item['nome']; ?>" class="btn btn-light">EXCLUIR</a>
                         </td>
                     </tr>
