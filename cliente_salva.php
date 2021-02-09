@@ -13,7 +13,9 @@
 </head>
 
 <body>
-
+    <form action="" method="post">
+        <input type="hidden" name="">
+    </form>
 </body>
 
 </html>
